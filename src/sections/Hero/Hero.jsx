@@ -41,7 +41,7 @@ function Hero() {
             Stewart
         </h1>
         <h2>
-            Software Developer
+            Developer
         </h2>
         <span>
             {/* <a href="https://twitter.com/" target='_blank'>
