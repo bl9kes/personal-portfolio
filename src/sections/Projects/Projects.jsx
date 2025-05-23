@@ -1,17 +1,21 @@
-import styles from './ProjectsStyles.module.css';
-import ProjectCard from '../../common/ProjectCard';
+import styles from './ProjectsStyles.module.css'; // Import local styles for the Projects section
+import ProjectCard from '../../common/ProjectCard'; // Reusable component for displaying individual projects
+
+// Import project images
 import asm from '../../assets/asm.png';
 import sql from '../../assets/sql.png';
 import puck from '../../assets/puck.png';
 
-
 function Projects() {
   return (
-    <section id='projects' className={styles.container}>
-        <h1 className='sectionTitle'>
+    <section id='projects' className={styles.container}> {/* Section with ID for navigation and scoped styling */}
+        <h1 className='sectionTitle'> {/* Section title */}
             Projects
         </h1>
-        <div className={styles.projectsContainer}>
+
+        <div className={styles.projectsContainer}> {/* Container for all project cards */}
+
+            {/* Each ProjectCard displays an image, title, link, and description */}
             <ProjectCard 
                 src={sql} 
                 link='https://github.com/bl9kes/CSC370-A4' 
@@ -47,4 +51,6 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default Projects; // Export the component so it can be used in App.jsx
+
+// Projects section of the site, showing a list of past work using a reusable ProjectCard component

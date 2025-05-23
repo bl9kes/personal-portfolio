@@ -1,12 +1,12 @@
-import styles from './ContactStyles.module.css';
+import styles from './ContactStyles.module.css';  // Import CSS module for styling
 
 function Contact() {
   return (
-    <section id="contact" className={styles.container}>
+    <section id="contact" className={styles.container}> {/* applies a CSS class called container from a CSS module */}
         <h1 className="sectionTitle">Contact</h1>
-        <form action="">
+        <form action="https://formspree.io/f/mdkgglzl" method="post">
             <div className="formGroup">
-                <label htmlFor="name" hidden>
+                <label htmlFor="name" hidden> {/* Name input */}
                     Name
                 </label>
                 <input
@@ -17,7 +17,7 @@ function Contact() {
                     required
                 />
             </div>
-            <div className="formGroup">
+            <div className="formGroup"> {/* Email input */}
                 <label htmlFor="email" hidden>
                     Email
                 </label>
@@ -29,7 +29,7 @@ function Contact() {
                     required
                 />
             </div>
-            <div className="formGroup">
+            <div className="formGroup"> {/* Message textarea */}
                 <label htmlFor="message" hidden>
                     Message
                 </label>
@@ -47,4 +47,6 @@ function Contact() {
   )
 }
 
-export default Contact
+export default Contact // Makes the component usable in other files
+
+// This component creates a contact section with a styled form that lets users send a message using Formspree.
