@@ -10,7 +10,7 @@ import { ThemeProvider } from './common/ThemeContext.jsx'; // Context for light/
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     
-    <ThemeProvider> {/* to manage themes (like dark mode) */}
+    <ThemeProvider> {/* to manage themes (like dark mode) -  lets your whole site know whether it’s in light or dark mode */} 
       
       <App /> {/* main component that holds the rest of the site */}
     </ThemeProvider>
