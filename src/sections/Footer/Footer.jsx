@@ -13,4 +13,3 @@ function Footer() {
 
 export default Footer; // Export the component so it can be used in App.jsx
 
-// This component displays the site’s footer with copyright text, styled using a local CSS module.
