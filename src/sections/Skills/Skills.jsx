@@ -28,20 +28,21 @@ function Skills() {
                 <SkillList src={checkMarkIcon} skill="Python" />
                 <SkillList src={checkMarkIcon} skill="Java" />
                 <SkillList src={checkMarkIcon} skill="C  " />
-                <SkillList src={checkMarkIcon} skill="SQL" />
+                <SkillList src={checkMarkIcon} skill="PostgreSQL" />
             </div>
 
-            <hr /> 
+            <hr />
 
             {/* CS Concepts / Coursework */}
             <div className={styles.skillList}>
-                <SkillList src={checkMarkIcon} skill="Operating Systems" />
+                <SkillList src={checkMarkIcon} skill="UX/UI Design" />
+                <SkillList src={checkMarkIcon} skill="Windows" />
+                <SkillList src={checkMarkIcon} skill="Linux" />
                 <SkillList src={checkMarkIcon} skill="Data Structures" />
                 <SkillList src={checkMarkIcon} skill="Object-Oriented Programming" />
                 <SkillList src={checkMarkIcon} skill="Computer Graphics" />
                 <SkillList src={checkMarkIcon} skill="Database Systems" />
                 <SkillList src={checkMarkIcon} skill="Software Architecture" />
-                <SkillList src={checkMarkIcon} skill="UX/UI Design" />
             </div>
 
             <hr />
@@ -50,8 +51,10 @@ function Skills() {
             <div className={styles.skillList}>
                 <SkillList src={checkMarkIcon} skill="VS Code" />
                 <SkillList src={checkMarkIcon} skill="Git" />
+                <SkillList src={checkMarkIcon} skill="MS Office" />
                 <SkillList src={checkMarkIcon} skill="Adobe Premier Pro" />
                 <SkillList src={checkMarkIcon} skill="iMovie" />
+                <SkillList src={checkMarkIcon} skill="WebGL" />
             </div>
         </section>
     );

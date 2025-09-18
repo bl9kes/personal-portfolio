@@ -48,7 +48,7 @@ function Hero() {
                     <br />
                     Stewart
                 </h1>
-                <h2>Developer</h2>
+                <h2>Software Developer</h2>
 
                 {/* Social links */}
                 <span>
@@ -63,7 +63,7 @@ function Hero() {
                     </a>
                 </span>
                 <p className={styles.description}>
-                    Computer Science student at the University of Victoria
+                    Fourth year Computer Science student at the University of Victoria
                 </p>
 
                 {/* Resume download button */}
