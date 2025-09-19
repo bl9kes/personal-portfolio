@@ -1,5 +1,9 @@
 -- Blake Stewart – Personal Portfolio Website --
 
+Hosted via Netlify:
+
+https://blakestewart.netlify.app/
+
 This is a personal portfolio website built with React 18 and Vite, designed to showcase projects, skills, and contact information in a modern, clean interface. The site features light/dark theme support, responsive design, and componentized sections for easy scalability.
 
 
