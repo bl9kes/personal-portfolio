@@ -2,6 +2,7 @@ import styles from './HeroStyles.module.css'; // Import CSS module for styling
 import heroImg from '../../assets/hero-img.png'; // Profile image
 import sun from '../../assets/sun.svg'; // Light mode icon
 import moon from '../../assets/moon.svg'; // Dark mode icon
+import blake from '../../assets/blake.jpeg';
 
 // Social icons for light and dark mode
 import twitterLight from '../../assets/twitter-light.svg';
@@ -30,7 +31,7 @@ function Hero() {
             <div className={styles.colourModeContainer}>
                 <img
                     className={styles.Hero}
-                    src={heroImg}
+                    src={blake}
                     alt="Profile Picture"
                 />
                 <img
@@ -48,7 +49,7 @@ function Hero() {
                     <br />
                     Stewart
                 </h1>
-                <h2>Software Developer</h2>
+                <h2>Developer</h2>
 
                 {/* Social links */}
                 <span>
@@ -63,7 +64,7 @@ function Hero() {
                     </a>
                 </span>
                 <p className={styles.description}>
-                    Fourth year Computer Science student at the University of Victoria
+                    Fourth-year Computer Science student at the University of Victoria
                 </p>
 
                 {/* Resume download button */}

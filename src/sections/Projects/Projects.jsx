@@ -6,7 +6,7 @@ import asm from '../../assets/asm.png';
 import sql from '../../assets/sql.png';
 import puck from '../../assets/puck.png';
 import weather from "../../assets/weather.png";
-import webgl from "../../assets/webgl.png";
+import figma from "../../assets/figma.png";
 import astro from "../../assets/astronaut.png";
 import movie from "../../assets/blake_stewart_image.jpg";
 
@@ -56,6 +56,13 @@ function Projects() {
                     h3='WebGL Scene'
                     p='CSC 305 Assignment 2'
                 />
+                <ProjectCard
+                    src={figma}
+                    link='https://www.youtube.com/watch?v=XGbAUpoZYgc&t=11s'
+                    h3='Figma Prototype'
+                    p='SENG 310 Assignment'
+                />
+
             </div>
         </section>
     );
