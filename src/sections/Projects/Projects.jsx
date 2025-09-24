@@ -6,6 +6,9 @@ import asm from '../../assets/asm.png';
 import sql from '../../assets/sql.png';
 import puck from '../../assets/puck.png';
 import weather from "../../assets/weather.png";
+import webgl from "../../assets/webgl.png";
+import astro from "../../assets/astronaut.png";
+import movie from "../../assets/blake_stewart_image.jpg";
 
 function Projects() {
     return (
@@ -20,14 +23,14 @@ function Projects() {
                 <ProjectCard
                     src={sql}
                     link='https://github.com/bl9kes/CSC370-A4'
-                    h3='Database-Driven App'
-                    p='CSC 370 Coursework'
+                    h3='Database Application'
+                    p='CSC 370 Final Project'
                 />
                 <ProjectCard
                     src={puck}
                     link='https://github.com/bl9kes'
                     h3='NHL Stats'
-                    p='PLayer Stats WebScrapper'
+                    p='Player Stats WebScrapper'
                 />
                 <ProjectCard
                     src={weather}
@@ -37,21 +40,21 @@ function Projects() {
                 />
                 <ProjectCard
                     src={asm}
-                    link='https://github.com/bl9kes/CSC230-A1'
-                    h3='Assembly A1'
-                    p='CSC 230 Coursework'
-                />
-                <ProjectCard
-                    src={asm}
-                    link='https://github.com/bl9kes/CSC230-A2'
-                    h3='Assembly A2'
-                    p='CSC 230 Coursework'
-                />
-                <ProjectCard
-                    src={asm}
                     link='https://github.com/bl9kes/CSC230-A3'
-                    h3='Assembly A3'
-                    p='CSC 230 Coursework'
+                    h3='Arduino Board LCD'
+                    p='CSC 230 Assignment 3'
+                />
+                <ProjectCard
+                    src={astro}
+                    link='https://github.com/bl9kes/CSC305-A1'
+                    h3='Astronaut Animation'
+                    p='CSC 305 Assignment 1'
+                />
+                <ProjectCard
+                    src={movie}
+                    link='https://github.com/bl9kes/CSC305-A2'
+                    h3='WebGL Scene'
+                    p='CSC 305 Assignment 2'
                 />
             </div>
         </section>
