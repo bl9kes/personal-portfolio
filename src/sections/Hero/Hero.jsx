@@ -2,6 +2,7 @@ import styles from './HeroStyles.module.css'; // Import CSS module for styling
 import heroImg from '../../assets/hero-img.png'; // Profile image
 import sun from '../../assets/sun.svg'; // Light mode icon
 import moon from '../../assets/moon.svg'; // Dark mode icon
+import blake from '../../assets/blake.jpeg';
 
 // Social icons for light and dark mode
 import twitterLight from '../../assets/twitter-light.svg';
@@ -10,8 +11,9 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
+import youtube from '../../assets/youtube.png';
 
-import CV from '../../assets/Resume2025.pdf'; // Resume PDF file
+import CV from '../../assets/MainResume.pdf'; // Resume PDF file
 import { useTheme } from '../../common/ThemeContext'; // Custom hook to access theme context
 
 function Hero() {
@@ -30,7 +32,7 @@ function Hero() {
             <div className={styles.colourModeContainer}>
                 <img
                     className={styles.Hero}
-                    src={heroImg}
+                    src={blake}
                     alt="Profile Picture"
                 />
                 <img
@@ -48,7 +50,7 @@ function Hero() {
                     <br />
                     Stewart
                 </h1>
-                <h2>Software Developer</h2>
+                <h2>Developer</h2>
 
                 {/* Social links */}
                 <span>
@@ -58,12 +60,15 @@ function Hero() {
                     <a href="https://github.com/bl9kes/" target="_blank">
                         <img src={githubIcon} alt="Github Icon" />
                     </a>
+                    <a href="https://www.youtube.com/@bl9kes" target="_blank">
+                        <img src={youtube} alt="Youtube Icon" />
+                    </a>
                     <a href="https://www.linkedin.com/in/blakeastewart" target="_blank">
                         <img src={linkedinIcon} alt="Linkedin Icon" />
                     </a>
                 </span>
                 <p className={styles.description}>
-                    Fourth year Computer Science student at the University of Victoria
+                    Fourth-year Computer Science student at the University of Victoria
                 </p>
 
                 {/* Resume download button */}
