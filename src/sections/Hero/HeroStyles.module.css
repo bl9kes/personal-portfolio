@@ -82,7 +82,6 @@
 .Hero {
     max-width: 500px;
     align-self: center;
-    position: relative;
     background-color: var(--project-card-bg);
     border-radius: 200px;
 }
