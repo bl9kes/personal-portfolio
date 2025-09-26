@@ -47,7 +47,7 @@ function Projects() {
                 />
                 <ProjectCard
                     src={asm}
-                    link='https://github.com/bl9kes/CSC230-A3'
+                    link='https://github.com/bl9kes/CSC230-A4'
                     h3='Arduino Light Show'
                     p='CSC 230 Assignment 4'
                 />
