@@ -9,6 +9,7 @@ import weather from "../../assets/weather.png";
 import figma from "../../assets/figma.png";
 import astro from "../../assets/astronaut.png";
 import movie from "../../assets/blake_stewart_image.jpg";
+import atom from "../../assets/atom.png";
 
 function Projects() {
     return (
@@ -27,28 +28,28 @@ function Projects() {
                     p='CSC 370 Final Project'
                 />
                 <ProjectCard
-                    src={puck}
-                    link='https://github.com/bl9kes'
-                    h3='NHL Stats'
-                    p='Player Stats WebScrapper'
-                />
-                <ProjectCard
-                    src={weather}
-                    link='https://github.com/bl9kes/weather-app'
-                    h3='Weather Dashboard'
-                    p='Integrated with OpenWeatherMap API'
-                />
-                <ProjectCard
-                    src={asm}
-                    link='https://github.com/bl9kes/CSC230-A3'
-                    h3='Arduino Board LCD'
-                    p='CSC 230 Assignment 3'
+                    src={atom}
+                    link='https://github.com/bl9kes/personal-portfolio'
+                    h3='ePortfolio'
+                    p='Website Code'
                 />
                 <ProjectCard
                     src={astro}
                     link='https://github.com/bl9kes/CSC305-A1'
                     h3='Astronaut Animation'
                     p='CSC 305 Assignment 1'
+                />
+                <ProjectCard
+                    src={weather}
+                    link='https://github.com/bl9kes/weather-app'
+                    h3='Weather Dashboard'
+                    p='OpenWeatherMap API'
+                />
+                <ProjectCard
+                    src={asm}
+                    link='https://github.com/bl9kes/CSC230-A3'
+                    h3='Arduino Light Show'
+                    p='CSC 230 Assignment 4'
                 />
                 <ProjectCard
                     src={movie}
@@ -61,6 +62,12 @@ function Projects() {
                     link='https://www.youtube.com/watch?v=XGbAUpoZYgc&t=11s'
                     h3='Figma Prototype'
                     p='SENG 310 Assignment'
+                />
+                <ProjectCard
+                    src={puck}
+                    link='https://github.com/bl9kes'
+                    h3='NHL Stats'
+                    p='Player Stats WebScrapper'
                 />
 
             </div>

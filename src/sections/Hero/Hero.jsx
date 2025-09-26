@@ -11,8 +11,9 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
+import youtube from '../../assets/youtube.png';
 
-import CV from '../../assets/Resume2025.pdf'; // Resume PDF file
+import CV from '../../assets/MainResume.pdf'; // Resume PDF file
 import { useTheme } from '../../common/ThemeContext'; // Custom hook to access theme context
 
 function Hero() {
@@ -58,6 +59,9 @@ function Hero() {
                     </a> */}
                     <a href="https://github.com/bl9kes/" target="_blank">
                         <img src={githubIcon} alt="Github Icon" />
+                    </a>
+                    <a href="https://www.youtube.com/@bl9kes" target="_blank">
+                        <img src={youtube} alt="Youtube Icon" />
                     </a>
                     <a href="https://www.linkedin.com/in/blakeastewart" target="_blank">
                         <img src={linkedinIcon} alt="Linkedin Icon" />
