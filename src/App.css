@@ -35,22 +35,35 @@ body {
 }
 
 /* Text styling */
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
   color: var(--text-colour);
   margin: 0;
   padding: 0;
 }
 
-h2, h3, p {
+h2,
+h3,
+h4,
+p {
   font-family: 'Roboto Mono', monospace;
 }
 
-h1, h2 {
+h1,
+h2 {
   text-transform: uppercase;
+  align-content: center;
 }
 
-h2, h3 {
+h2,
+h3 {
   font-size: 20px;
+}
+
+h4 {
+  font-size: 28px;
 }
 
 h1 {
@@ -74,32 +87,39 @@ p {
 }
 
 /* styles for medium screens */
-@media (width >= 800px) {
+@media (width >=800px) {
   #root {
     gap: 100px;
   }
+
   h1 {
     font-size: 40px;
   }
-  h2, h3 {
+
+  h2,
+  h3 {
     font-size: 24px;
   }
+
   p {
     font-size: 20px;
   }
+
   .sectionTitle {
     margin-bottom: 60px;
   }
 }
 
 /* styles for large screens */
-@media (width >= 1400px) {
+@media (width >=1400px) {
   #root {
     gap: 200px;
   }
+
   h1 {
     font-size: 48px;
   }
+
   .sectionTitle {
     margin-bottom: 75px;
   }

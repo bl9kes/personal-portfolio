@@ -18,6 +18,7 @@ function Skills() {
                 <SkillList src={checkMarkIcon} skill="HTML" />
                 <SkillList src={checkMarkIcon} skill="CSS" />
                 <SkillList src={checkMarkIcon} skill="JavaScript" />
+                <SkillList src={checkMarkIcon} skill="TypeScript" />
                 <SkillList src={checkMarkIcon} skill="Vite" />
                 <SkillList src={checkMarkIcon} skill="WordPress" />
             </div>
@@ -44,6 +45,7 @@ function Skills() {
                 <SkillList src={checkMarkIcon} skill="Computer Graphics" />
                 <SkillList src={checkMarkIcon} skill="Database Systems" />
                 <SkillList src={checkMarkIcon} skill="Software Architecture" />
+                <SkillList src={checkMarkIcon} skill="Agile Development" />
             </div>
 
             <hr />
@@ -57,6 +59,7 @@ function Skills() {
                 <SkillList src={checkMarkIcon} skill="Adobe Premier Pro" />
                 <SkillList src={checkMarkIcon} skill="iMovie" />
                 <SkillList src={checkMarkIcon} skill="WebGL" />
+                <SkillList src={checkMarkIcon} skill="Radiant" />
             </div>
         </section>
     );
