@@ -10,6 +10,8 @@ import figma from "../../assets/figma.png";
 import astro from "../../assets/astronaut.png";
 import movie from "../../assets/blake_stewart_image.jpg";
 import atom from "../../assets/atom.png";
+import pong from "../../assets/pong.png";
+import euchre from "../../assets/euchre.png";
 
 function Projects() {
     return (
@@ -17,6 +19,43 @@ function Projects() {
             <h1 className='sectionTitle'> {/* Section title */}
                 Projects
             </h1>
+
+            <h4 className='sectionSubTitle'>
+                Personal
+            </h4>
+
+            <div className={styles.projectsContainer}> {/* Container for all project cards */}
+
+                {/* Each ProjectCard displays an image, title, link, and description */}
+                <ProjectCard
+                    src={atom}
+                    link='https://github.com/bl9kes/personal-portfolio'
+                    h3='ePortfolio'
+                    p='The code to this Website'
+                />
+                <ProjectCard
+                    src={euchre}
+                    link='https://github.com/bl9kes/euchre-game'
+                    h3='Euchre'
+                    p='Euchre card game built with Python'
+                />
+                <ProjectCard
+                    src={pong}
+                    link='https://github.com/bl9kes/pong-game'
+                    h3='Pong'
+                    p='Classic Pong game built with React'
+                />
+                <ProjectCard
+                    src={puck}
+                    link='https://github.com/bl9kes'
+                    h3='NHL Stats'
+                    p='Player Stats WebScrapper'
+                />
+            </div>
+
+            <h4 className='sectionSubTitle'>
+                Coursework
+            </h4>
 
             <div className={styles.projectsContainer}> {/* Container for all project cards */}
 
@@ -28,22 +67,10 @@ function Projects() {
                     p='CSC 370 Final Project'
                 />
                 <ProjectCard
-                    src={atom}
-                    link='https://github.com/bl9kes/personal-portfolio'
-                    h3='ePortfolio'
-                    p='Website Code'
-                />
-                <ProjectCard
                     src={astro}
                     link='https://github.com/bl9kes/CSC305-A1'
                     h3='Astronaut Animation'
                     p='CSC 305 Assignment 1'
-                />
-                <ProjectCard
-                    src={weather}
-                    link='https://github.com/bl9kes/weather-app'
-                    h3='Weather Dashboard'
-                    p='OpenWeatherMap API'
                 />
                 <ProjectCard
                     src={asm}
@@ -63,13 +90,6 @@ function Projects() {
                     h3='Figma Prototype'
                     p='SENG 310 Assignment'
                 />
-                <ProjectCard
-                    src={puck}
-                    link='https://github.com/bl9kes'
-                    h3='NHL Stats'
-                    p='Player Stats WebScrapper'
-                />
-
             </div>
         </section>
     );
